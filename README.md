@@ -1,27 +1,46 @@
-# TodoApp
+# Angular 14 To-Do App with Firebase
+This is a simple to-do application built using Angular 14 and Firebase. The application allows users to create, edit, and delete tasks, as well as mark them as completed.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
+## Technologies Used
+- Angular 14
+- Firebase
+- Bootstrap
+## Features
+- User authentication using Firebase Auth
+- CRUD (create, read, update, delete) operations for tasks
+- Mark tasks as completed
+- Sort tasks by date created or due date
+- Responsive design using Bootstrap
+## Installation
+To run this application locally, you'll need to follow these steps:
 
-## Development server
+1. Clone the repository: git clone https://github.com/dev348/todoApp-Angular.git
+2. Install dependencies: npm install
+3. Create a Firebase project and add the Firebase configuration to src/environments/environment.ts
+4. Start the development server: ng serve
+## Deployment
+To deploy this application, you can follow these steps:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Build the production-ready files: ng build --prod
+Deploy the files to your hosting provider (e.g. Firebase Hosting, AWS, etc.)
+## Contributing
+If you'd like to contribute to this project, please follow these steps:
 
-## Code scaffolding
+1. Fork the repository
+2. Create a new branch: git checkout -b my-new-feature
+3. Make your changes and commit them: git commit -am 'Add some feature'
+4. Push to the branch: git push origin my-new-feature
+5. Create a pull request
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Acknowledgments
+This project was inspired by TodoMVC
+Thanks to Bootstrap for the responsive design
+Thanks to Firebase for the backend infrastructure
+## Screenshots
 
-## Build
+![ToDo APP!](/assets/images/view.png "ToDo App ")
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Demo
+(Optional) If you have a live demo of your application, you can add a link to it in the README file.
