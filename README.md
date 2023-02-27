@@ -40,7 +40,7 @@ Thanks to Bootstrap for the responsive design
 Thanks to Firebase for the backend infrastructure
 ## Screenshots
 
-![ToDo APP!](/assets/images/view.png "ToDo App ")
+![ToDo APP!](assets/images/view.png "ToDo App ")
 
 ## Demo
 (Optional) If you have a live demo of your application, you can add a link to it in the README file.
