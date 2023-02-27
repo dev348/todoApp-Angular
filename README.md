@@ -40,6 +40,6 @@ Thanks to Bootstrap for the responsive design
 Thanks to Firebase for the backend infrastructure
 ## Screenshots
 
-![ToDo APP!](src/assets/images/view.png "ToDo App ")
+![ToDo APP!](main/src/assets/images/view.png "ToDo App ")
 
 ## Demo
